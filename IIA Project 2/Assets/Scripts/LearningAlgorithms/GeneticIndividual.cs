@@ -14,7 +14,7 @@ public class GeneticIndividual : Individual
 		//Implementar
 		for (int i = 0; i < totalSize; i++)
 		{
-			genotype[i] = Random.Range(-1.0f, 1.0f);
+			genotype[i] = topology[i];
 		}
 	}
 

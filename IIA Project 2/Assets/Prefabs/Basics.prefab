@@ -70,13 +70,103 @@ PrefabInstance:
     - target: {fileID: 7817105169419043499, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7817105170971356107, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: m_Car
+      value: 
+      objectReference: {fileID: 9123027177507655480}
+    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 9123027178113706677}
+    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: MyGoal
+      value: 
+      objectReference: {fileID: 9123027176882335282}
+    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: AdversaryGoal
+      value: 
+      objectReference: {fileID: 9123027176820766202}
+    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: ScoreSystem
+      value: 
+      objectReference: {fileID: 9123027177947963529}
+    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: Adversary
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: m_Car
+      value: 
+      objectReference: {fileID: 9123027176702457437}
+    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 9123027178113706677}
+    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: MyGoal
+      value: 
+      objectReference: {fileID: 9123027176820766202}
+    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: AdversaryGoal
+      value: 
+      objectReference: {fileID: 9123027176882335282}
+    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: Adversary
+      value: 
+      objectReference: {fileID: 9123027177501653680}
+    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: ScoreSystem
+      value: 
+      objectReference: {fileID: 9123027177947963529}
+    - target: {fileID: 9032791419346348546, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: m_Car
+      value: 
+      objectReference: {fileID: 9123027176702457437}
+    - target: {fileID: 9032791419346348546, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 9123027178113706677}
+    - target: {fileID: 9032791420688421735, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: m_Car
+      value: 
+      objectReference: {fileID: 9123027177507655480}
+    - target: {fileID: 9032791420688421735, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 9123027178113706677}
+    - target: {fileID: 7193241163038559778, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: BluePlayer
+      value: 
+      objectReference: {fileID: 9123027177501653680}
+    - target: {fileID: 7193241163038559778, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: RedPlayer
+      value: 
+      objectReference: {fileID: 9123027176696431573}
     - target: {fileID: 7817105169338259127, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: cam
@@ -162,46 +252,11 @@ PrefabInstance:
       propertyPath: m_WheelEffects.Array.data[3]
       value: 
       objectReference: {fileID: 9123027176702457425}
-    - target: {fileID: 9032791419346348546, guid: bd01af788228c4345b88f3a7069a4d67,
+    - target: {fileID: 7817105170235018834, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
-      propertyPath: m_Car
-      value: 
-      objectReference: {fileID: 9123027176702457437}
-    - target: {fileID: 9032791419346348546, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 9123027178113706677}
-    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: m_Car
-      value: 
-      objectReference: {fileID: 9123027176702457437}
-    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 9123027178113706677}
-    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: MyGoal
-      value: 
-      objectReference: {fileID: 9123027176820766202}
-    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: AdversaryGoal
-      value: 
-      objectReference: {fileID: 9123027176882335282}
-    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: Adversary
-      value: 
-      objectReference: {fileID: 9123027177501653680}
-    - target: {fileID: 764006462619008835, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: ScoreSystem
-      value: 
-      objectReference: {fileID: 9123027177947963529}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7817105170235018822, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: m_WheelColliders.Array.data[0]
@@ -267,51 +322,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7817105170235018834, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9032791420688421735, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: m_Car
-      value: 
-      objectReference: {fileID: 9123027177507655480}
-    - target: {fileID: 9032791420688421735, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 9123027178113706677}
-    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: m_Car
-      value: 
-      objectReference: {fileID: 9123027177507655480}
-    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 9123027178113706677}
-    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: MyGoal
-      value: 
-      objectReference: {fileID: 9123027176882335282}
-    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: AdversaryGoal
-      value: 
-      objectReference: {fileID: 9123027176820766202}
-    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: ScoreSystem
-      value: 
-      objectReference: {fileID: 9123027177947963529}
-    - target: {fileID: 764006461276915238, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: Adversary
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7817105170368522575, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: m_Camera
@@ -322,16 +332,6 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 9123027176849475813}
-    - target: {fileID: 7193241163038559778, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: BluePlayer
-      value: 
-      objectReference: {fileID: 9123027177501653680}
-    - target: {fileID: 7193241163038559778, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: RedPlayer
-      value: 
-      objectReference: {fileID: 9123027176696431573}
     - target: {fileID: 7817105169544164475, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: ballSpawner
@@ -362,6 +362,11 @@ PrefabInstance:
       propertyPath: scoreKeeper
       value: 
       objectReference: {fileID: 9123027177947963528}
+    - target: {fileID: 7817105169429821227, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: car
+      value: 
+      objectReference: {fileID: 9123027176702457437}
     - target: {fileID: 7817105169429821225, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: wheel
@@ -370,11 +375,6 @@ PrefabInstance:
     - target: {fileID: 7817105169429821223, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: carController
-      value: 
-      objectReference: {fileID: 9123027176702457437}
-    - target: {fileID: 7817105169429821227, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: car
       value: 
       objectReference: {fileID: 9123027176702457437}
     - target: {fileID: 7817105169429821221, guid: bd01af788228c4345b88f3a7069a4d67,
@@ -387,29 +387,29 @@ PrefabInstance:
       propertyPath: wheel
       value: 
       objectReference: {fileID: 9123027176696431567}
-    - target: {fileID: 7817105170235018816, guid: bd01af788228c4345b88f3a7069a4d67,
+    - target: {fileID: 7817105170235018830, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
-      propertyPath: carController
+      propertyPath: car
       value: 
       objectReference: {fileID: 9123027177507655480}
-    - target: {fileID: 7817105170235018820, guid: bd01af788228c4345b88f3a7069a4d67,
-        type: 3}
-      propertyPath: wheel
-      value: 
-      objectReference: {fileID: 9123027177501653674}
     - target: {fileID: 7817105170235018828, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: wheel
       value: 
       objectReference: {fileID: 9123027177501653672}
+    - target: {fileID: 7817105170235018820, guid: bd01af788228c4345b88f3a7069a4d67,
+        type: 3}
+      propertyPath: wheel
+      value: 
+      objectReference: {fileID: 9123027177501653674}
     - target: {fileID: 7817105170235018818, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
       propertyPath: carController
       value: 
       objectReference: {fileID: 9123027177507655480}
-    - target: {fileID: 7817105170235018830, guid: bd01af788228c4345b88f3a7069a4d67,
+    - target: {fileID: 7817105170235018816, guid: bd01af788228c4345b88f3a7069a4d67,
         type: 3}
-      propertyPath: car
+      propertyPath: carController
       value: 
       objectReference: {fileID: 9123027177507655480}
     - target: {fileID: 221381032, guid: bd01af788228c4345b88f3a7069a4d67, type: 3}

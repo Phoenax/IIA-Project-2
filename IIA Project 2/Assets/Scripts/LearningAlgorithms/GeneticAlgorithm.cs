@@ -32,6 +32,7 @@ public class GeneticAlgorithm : MetaHeuristic
 		//You should implement the code runs in each generation here
 		List<Individual> new_pop = new List<Individual>();
 		updateReport();
+
 		population.Sort((x, y) => x.Fitness.CompareTo(y.Fitness));
 		population.Reverse();
 
@@ -46,6 +47,7 @@ public class GeneticAlgorithm : MetaHeuristic
 		if (tournamentSize > 0)
 		{
 			List<Individual> winners = fitnessSelect.selectIndividuals(population,tournamentSize,tournamentProbability);
+
 			for(int i = new_pop.Count; i < population.Count; i++)
 			{
 				Individual parent1 = winners[Random.Range(0, winners.Count)];

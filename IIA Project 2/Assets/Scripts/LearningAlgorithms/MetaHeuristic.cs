@@ -15,7 +15,7 @@ public abstract class MetaHeuristic : MonoBehaviour
 
 	protected List<Individual> population;
 	protected int evaluatedIndividuals;
-	protected string report = "Generation,PopBest,PopAvg,BestOverall\n";
+	protected string report = "Generation PopBest PopAvg BestOverall\n";
 	protected string best = "";
 	protected SelectionMethod selection;
 
@@ -76,7 +76,7 @@ public abstract class MetaHeuristic : MonoBehaviour
 		}
 		float populationBest = GenerationBest.Fitness;
 		best = overallBest.ToString();
-		report +=  string.Format("{0},{1},{2},{3}\n", generation, populationBest, PopAvg, overallBest.Fitness);
+		report +=  string.Format("{0} {1} {2} {3}\n", generation, populationBest, PopAvg, overallBest.Fitness);
 		Debug.Log (report);
 		Debug.Log (best);
 	}

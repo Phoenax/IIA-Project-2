@@ -323,9 +323,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoText: {fileID: 812458883}
   simulating: 0
-  simulationPrefab: {fileID: 9123027176374597434, guid: d149e97bd0cef46c2acc87136e978d12,
+  simulationPrefab: {fileID: 7817105169101141572, guid: bd01af788228c4345b88f3a7069a4d67,
     type: 3}
-  nSims: 20
+  nSims: 30
   seed: 1
   Thetimescale: 8
 --- !u!4 &1140463230
@@ -354,17 +354,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d21771eeeb74e52884a6be78b317d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  populationSize: 10
-  topology: 
-  numGenerations: 20
+  populationSize: 20
+  topology: 0000000000000000000000000000000000000000000000000000000000000000
+  numGenerations: 50
   generation: 0
   logFilename: 
   mutationProbability: 0.3
-  crossoverProbability: 0.3
-  tournamentSize: 0
-  tournamentProbability: 0
-  elitist: 0
-  elitistSize: 2
+  crossoverProbability: 0.8
+  tournamentSize: 5
+  tournamentProbability: 0.8
+  elitist: 1
+  elitistSize: 3
 --- !u!114 &1140463232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   populationSize: 10
   topology: 0f0000001400000002000000
-  numGenerations: 20
+  numGenerations: 50
   generation: 0
   logFilename: 
   mutationProbability: 0.3
